@@ -1,6 +1,6 @@
-# Addlist (addlist)
+# Appstore (appstore)
 
-Official Web Addlist Media Utama
+addlist.co.id
 
 ## Install the dependencies
 ```bash
