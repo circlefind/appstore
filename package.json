@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
@@ -15,8 +16,10 @@
     "@quasar/icongenie": "^2.5.3",
     "axios": "^0.21.1",
     "core-js": "^3.19.1",
+    "html2pdf.js": "^0.10.1",
     "quasar": "^1.19.4",
     "vue-currency-input": "^1.22.6",
+    "vue-html2pdf": "^1.8.0",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {

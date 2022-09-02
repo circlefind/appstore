@@ -20,8 +20,8 @@ export function removenotification (state, id) {
     state.commit('setNotification', response.data)
   })
 }
-export function getreptransaction (state) {
-  return api.get('/transactions/reptransaction').then((response) => {
+export function getreptransaction (state, date) {
+  return api.get('/transactions/reptransaction/' + date).then((response) => {
     state.commit('setReptransaction', response.data)
   })
 }
