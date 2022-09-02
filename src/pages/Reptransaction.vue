@@ -58,12 +58,8 @@
             >
               <template v-slot:body="props">
                 <q-tr :props="props">
-                  <q-td auto-width key="id" :props="props">{{
-                    props.row.id
-                  }}</q-td>
-                  <q-td auto-width key="datetr" :props="props">{{
-                    formatDate(props.row.datetr)
-                  }}</q-td>
+                  <q-td auto-width key="id" :props="props"><div class="text-weight-bold">{{
+                    props.row.id}} </div><div class="text-caption">{{formatDate(props.row.datetr)}}</div></q-td>
                   <q-td key="name" :props="props">{{ props.row.productname }}&nbsp;Etc</q-td>
                   <q-td key="subtotal" :props="props"
                     >Rp&nbsp;{{ formatPrice(props.row.subtotal) }}</q-td
@@ -359,16 +355,8 @@ export default {
         {
           name: 'id',
           align: 'left',
-          label: 'INVOICE',
+          label: 'INVOICE TANGGAL',
           field: 'id',
-          sortable: false,
-          headerClasses: 'bgtable'
-        },
-        {
-          name: 'datetr',
-          align: 'left',
-          label: 'TANGGAL',
-          field: 'datetr',
           sortable: false,
           headerClasses: 'bgtable'
         },
