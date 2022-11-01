@@ -1,6 +1,6 @@
-# Appstore (appstore)
+# Appstore Front-End App for Admin
 
-addlist.co.id
+Mas Dendi Priyono
 
 ## Install the dependencies
 ```bash
