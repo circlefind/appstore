@@ -1,6 +1,5 @@
 # Appstore Front-End App for Admin
 
-Mas Dendi Priyono
 
 ## Install the dependencies
 ```bash
